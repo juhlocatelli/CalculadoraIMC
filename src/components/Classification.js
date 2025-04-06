@@ -1,5 +1,6 @@
 import React from 'react';
 import Result from './Result';
+import Form from './FormIMC';
 
 function classificarIMC(imc) {
     if(imc < 18.5){
@@ -21,3 +22,5 @@ function classificarIMC(imc) {
         return "Você está com obesidade grau 3";
     }
 }
+
+export default classificarIMC;
