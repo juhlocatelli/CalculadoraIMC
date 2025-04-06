@@ -20,3 +20,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
 });
+
+export default function Classification ({ imc }) {//Imc é um parametro
+  const msg = ClassificarIMC(imc);//A classificação do imc está sendo passada para a variável msg
+  return <text> {msg} </text>;//Exibição da variável
+}

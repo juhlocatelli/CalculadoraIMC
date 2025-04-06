@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
         marginBottom: 24,
+        color: ff66ff,
     },
 });
 
