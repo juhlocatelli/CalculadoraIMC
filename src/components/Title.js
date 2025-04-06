@@ -1,8 +1,8 @@
-import { Text, StyleSheet } from 'reacte-native';
+import { Text, StyleSheet } from 'react-native';
 
 const Title = () => {
     return(
-        <Text style={style.title}>Calculadora de IMC</Text>
+        <Text style={styles.title}>Calculadora de IMC</Text>
     );
 };
 
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         fontSize: 32,
         fontWeight: 'bold',
         textAlign: 'center',
-        marginBottm: 24,
+        marginBottom: 24,
     },
 });
 
