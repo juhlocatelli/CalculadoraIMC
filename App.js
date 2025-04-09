@@ -11,7 +11,7 @@ export default function App() {
     </View>
   );
 }
-
+//ESTILIZAÇÃO
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -21,7 +21,3 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function Classification ({ imc }) {//Imc é um parametro
-  const msg = ClassificarIMC(imc);//A classificação do imc está sendo passada para a variável msg
-  return <text> {msg} </text>;//Exibição da variável
-}
